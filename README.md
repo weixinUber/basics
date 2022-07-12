@@ -21,3 +21,13 @@ git pull url # fetch the updates
 git status # changes between current version and the last commited version
 git diff # 
 ```
+
+### 1.4 save the change
+```bash
+# commit
+git add * or git add file
+git commit -m "message"
+
+# temporary save
+git stash save
+```
