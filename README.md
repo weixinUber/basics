@@ -28,6 +28,13 @@ git diff # code-level unstaged change
 git add * or git add file
 git commit -m "message"
 
-# temporary save
+# temporary save (locally)
 git stash save
+git stash list #list all the temporarily saved changes
+git stash pop #reload the temporarily saved changes
+git stash drop #remove the temporarily saved changes
+```
+
+### 1.5 sync difference between branches
+```bash
 ```
