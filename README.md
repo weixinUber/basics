@@ -37,4 +37,28 @@ git stash drop #remove the temporarily saved changes
 
 ### 1.5 sync difference between branches
 ```bash
+# clone and generate a new branch
+git checkout -b new_branch 
+
+# propagate changes from source branch to the target branch
+git rebase src_branch dst_branch
+```
+
+### 1.6 go back to the previous committed version
+```bash
+# discard the changes
+git reset --hard commit_id
+
+# not discard
+git reset commit_id
+git stash save
+```
+
+### 1.7 delete branch
+```bash
+# locally
+git branch -d branch_name #checkout to another branch first
+
+# remote
+git branch origin --delete remote_branch_name
 ```
