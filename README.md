@@ -18,8 +18,8 @@ git pull url # fetch the updates
 
 ### 1.3 check the changes
 ```bash
-git status # changes between current version and the last commited version
-git diff # 
+git status # file-level change between current version and the last commited version
+git diff # code-level unstaged change
 ```
 
 ### 1.4 save the change
