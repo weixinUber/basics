@@ -48,7 +48,7 @@ git rebase src_branch dst_branch
 
 ```bash
 # go back to a previous commit
-git checkout commit_id
+git checkout commit_id .
 
 # discard the changes
 git reset --hard commit_id
