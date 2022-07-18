@@ -45,7 +45,11 @@ git rebase src_branch dst_branch
 ```
 
 ### 1.6 go back to the previous committed version
+
 ```bash
+# go back to a previous commit
+git checkout commit_id
+
 # discard the changes
 git reset --hard commit_id
 
